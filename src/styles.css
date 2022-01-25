@@ -1,4 +1,13 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  background-color: #f4f3ee;
+}
+
 .App {
-  font-family: sans-serif;
-  text-align: center;
+  font-family: "Nunito", sans-serif;
+  padding: 40px;
 }

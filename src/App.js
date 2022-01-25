@@ -1,10 +1,12 @@
 import "./styles.css";
+import { Header, Articles } from "./components";
+import ARTICLES from "./data";
 
-export default function App() {
-  return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <Header />
+    <Articles articles={ARTICLES} />
+  </div>
+);
+
+export default App;
