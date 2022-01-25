@@ -5,6 +5,7 @@ const Container = styled.div`
   align-items: center;
   flex-direction: column;
   gap: 10px;
+  padding-top: 40px;
 `;
 
 const Title = styled.h1`

@@ -4,7 +4,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 0px;
+  padding: 40px 0px 50px 0px;
 `;
 
 const PriceText = styled.h1`
