@@ -4,6 +4,9 @@ import image3 from "./images/lab-image-3.jpg";
 import image4 from "./images/lab-image-4.jpg";
 import image5 from "./images/lab-image-5.jpg";
 
+const PRICE = "3,670";
+const CAPACITY = 40;
+
 const ARTICLES = [
   {
     id: 0,
@@ -42,4 +45,4 @@ const ARTICLES = [
   },
 ];
 
-export default ARTICLES;
+export { ARTICLES, PRICE, CAPACITY };
