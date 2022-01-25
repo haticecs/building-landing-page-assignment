@@ -1,5 +1,5 @@
 import ArticleItem from "./ArticleItem";
-export { Container } from "./styled";
+import { Container } from "./styled";
 
 /*IsOdd prop is used to reverse row according to the design via indexes */
 const Articles = ({ articles }) => {
