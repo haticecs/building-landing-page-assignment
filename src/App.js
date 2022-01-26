@@ -4,8 +4,16 @@ import {
   Articles,
   PriceAndCapacity,
   ContactUsForm,
+  Footer,
 } from "./components";
-import { ARTICLES, PRICE, CAPACITY } from "./data";
+import {
+  ARTICLES,
+  PRICE,
+  CAPACITY,
+  ADDRESS,
+  DESIGNER,
+  SOCIAL_LINKS,
+} from "./data";
 
 const App = () => (
   <div className="App">
@@ -13,6 +21,7 @@ const App = () => (
     <Articles articles={ARTICLES} />
     <PriceAndCapacity price={PRICE} capacity={CAPACITY} />
     <ContactUsForm />
+    <Footer address={ADDRESS} designer={DESIGNER} sociallinks={SOCIAL_LINKS} />
   </div>
 );
 

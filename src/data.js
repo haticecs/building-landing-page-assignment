@@ -6,6 +6,13 @@ import image5 from "./images/lab-image-5.jpg";
 
 const PRICE = "3,670";
 const CAPACITY = 40;
+const ADDRESS = "W5723 Lake View Chester, CA96020";
+const DESIGNER = "Papaya";
+const SOCIAL_LINKS = {
+  facebook: "https://www.facebook.com/",
+  twitter: "https://www.twitter.com/",
+  instagram: "https://www.instagram.com/",
+};
 
 const ARTICLES = [
   {
@@ -45,4 +52,4 @@ const ARTICLES = [
   },
 ];
 
-export { ARTICLES, PRICE, CAPACITY };
+export { ARTICLES, PRICE, CAPACITY, ADDRESS, DESIGNER, SOCIAL_LINKS };
