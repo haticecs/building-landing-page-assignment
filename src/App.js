@@ -1,5 +1,10 @@
 import "./styles.css";
-import { Header, Articles, PriceAndCapacity } from "./components";
+import {
+  Header,
+  Articles,
+  PriceAndCapacity,
+  ContactUsForm,
+} from "./components";
 import { ARTICLES, PRICE, CAPACITY } from "./data";
 
 const App = () => (
@@ -7,6 +12,7 @@ const App = () => (
     <Header />
     <Articles articles={ARTICLES} />
     <PriceAndCapacity price={PRICE} capacity={CAPACITY} />
+    <ContactUsForm />
   </div>
 );
 

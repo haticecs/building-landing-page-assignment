@@ -1,4 +1,6 @@
 import Header from "./Header";
 import Articles from "./Articles";
 import PriceAndCapacity from "./PriceAndCapacity";
-export { Header, Articles, PriceAndCapacity };
+import ContactUsForm from "./ContactUsForm";
+
+export { Header, Articles, PriceAndCapacity, ContactUsForm };
